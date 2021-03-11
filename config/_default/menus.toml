@@ -11,14 +11,36 @@
   url = "/docs/help/"
 
 [[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
-  weight = 10
+  name = "PCs"
+  url = "/player-characters/"
+  weight = 1
 
 [[main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "Wiki"
+  url = "/wiki/about/introduction/"
+  weight = 5
+
+#[[main]]
+#  name = "Docs"
+#  url = "/docs/prologue/introduction/"
+#  weight = 10
+
+[[main]]
+  name = "Campaign Log"
+  url = "/campaign-log/"
   weight = 20
+
+[[wiki]]
+  name = "About"
+  weight = 10
+  identifier = "about"
+  url = "/wiki/about/"
+
+[[wiki]]
+  name = "Locations"
+  weight = 10
+  identifier = "locations"
+  url = "/wiki/locations/"
 
 [[social]]
   name = "Twitter"

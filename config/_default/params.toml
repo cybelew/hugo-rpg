@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Hugo-RPG"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+titleAddition = "RPG Campaign theme"
+description = "Hugo-RPG is a Hugo theme helping you build RPG campaign websites."
 
 ## Open Graph + Twitter Cards
 images = ["doks.png"]
