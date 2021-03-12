@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: cybelew/hugo-rpg
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: assets/images
+public_folder: /img
+collections:
+  - name: 'campaign-log'
+    label: 'Campaign Log'
+    folder: 'content/campaign-log'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'date' }
+      - { label: 'Last Modified Date', name: 'lastmod', widget: 'date' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'wiki'
+    label: 'Wiki Article'
+    folder: 'content/wiki'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'date' }
+      - { label: 'Last Modified Date', name: 'lastmod', widget: 'date' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
